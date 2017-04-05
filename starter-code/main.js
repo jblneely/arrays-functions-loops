@@ -4,9 +4,9 @@
 */
 
 var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
-for (i = 0; i <= ages.length; i++);
-console.log(ages);
-
+for (i = 0; i <= ages.length; i++) {
+    console.log(ages[i]);
+}
 
 
 /*
@@ -21,42 +21,43 @@ console.log(ages);
 */
 
 var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+var younger = [];
 for (i = 0; i <= ages.length; i++) {
-    if (age < 20) {
-        age = 'younger'
+    if (ages[i] < 20) {
+        younger.push(ages[i]);
     }
 
 }
-console.log();
+// console.log();
 
 
-function youngerAges() {
-    return function() {
-        var younger = ();
-        var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
-        for (i = 0; i < count.length; i++) {
-            if (i <= 20); {
-                return array.prototype.push(younger);
-            }
-        }
-    };
-}
+// function youngerAges() {
+//     return function() {
+//         var younger = ();
+//         var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+//         for (i = 0; i < count.length; i++) {
+//             if (i <= 20); {
+//                 return array.prototype.push(younger);
+//             }
+//         }
+//     };
+// }
 
 
-var younger = ()
-var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
-for (i = 0; ages.length; i++);
-console.log(ages <= 20);
-return array.prototype.push(younger);
+// var younger = ()
+// var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+// for (i = 0; ages.length; i++);
+// console.log(ages <= 20);
+// return array.prototype.push(younger);
 
-//filter//
-function younger(value) {
-    return value >= 20;
-}
+// //filter//
+// function younger(value) {
+//     return value >= 20;
+// }
 
-var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26].filter(younger);
-return array.prototype.push(younger)
-s
+// var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26].filter(younger);
+// return array.prototype.push(younger)
+// s
 
 /*
 	Part 3: We're comfortable going through an element from beginning to end, but let's
@@ -70,32 +71,75 @@ s
 	Hint: What would the conditional for your for-loop look like?
 */
 var younger = [17, 14, 12, 30, 13]
-array.prototype.reverse(younger)
+console.log(younger.reverse)
 
-console.log(reverse(younger))
-    /*
-    	Part 4: Now that you've finished the first 3 parts using a for-loop, repeat the same exercises
-    	(Part 1, Part 2, and Part 3) using a while-loop.
-    */
-    //pt1
+
+//using a for/ loop/
+
 var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
-while (i = 0; ages.length; i++);
+var younger = [];
+for (i = 0; i <= ages.length; i++) {
+    if (ages[i] < 20) {
+        younger.push(ages[i]);
+    }
+
+}
+
+var youngerAges = [17, 14, 12, 30, 13]
+    //loop index from ages.length -1 to 0:
+    //print the element in the array at that index.
+for (var i = ages.length - 1; i >= 0; i--) {
+    //verify the for loop is accurate
+    console.log(i);
+    //access element in the array
+    ages[i];
+    //print it to the console
+    console.log(ages[i]);
+}
+
+// where does the -1 come from in the condition?
+
+//array.prototype.reverse(younger)
+/*
+	Part 4: Now that you've finished the first 3 parts using a for-loop, repeat the same exercises
+	(Part 1, Part 2, and Part 3) using a while-loop.
+*/
+//pt1
+var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+var i = 0
+
+while (i = 0; ages.length) {
+    console.log(ages[i]);
+    i++;
+}
 
 //pt2
-while (ages < 20)
-    younger.push
+var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+var younger = [];
+var i = 0;
 
+while (i = 0; ages.length) {
+    younger.push(ages[i]);
+    i++;
+
+}
 //pt3
-while (ages < 20)
-    younger.reverse
-    /*
-    	Part 5: Create a function, getDayOfWeek, that will tell you what day of the week it is.
-    	For example, getDayOfWeek(1) would return "Monday", and getDayOfWeek(5) would return "Friday".
-    	An invalid day of the week should return the string, "Please enter a valid day of the week".
 
-    	Hint: Using a "switch" statement might result in cleaner code
-    */
-var getDayOfWeek = 3;
+var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+var younger = [];
+var i = 0;
+while (ages < 20) {
+    younger.reverse(ages[i]);
+}
+/*
+
+	Part 5: Create a function, getDayOfWeek, that will tell you what day of the week it is.
+	For example, getDayOfWeek(1) would return "Monday", and getDayOfWeek(5) would return "Friday".
+	An invalid day of the week should return the string, "Please enter a valid day of the week".
+
+	Hint: Using a "switch" statement might result in cleaner code
+*/
+var dayNumber = 3;
 if (dayNumber === 0) {
     day = 'Sunday';
 } else if (dayNumber === 1) {
@@ -117,37 +161,38 @@ console.log(day);
 
 //switch//
 
-var dayNumber =
+var dayNumber = (dayNumber) {
     var day;
-switch (dayNumber) {
-    case 0:
-        day = 'Sunday';
-        break;
-    case 1:
-        day = 'Monday';
-        break;
-    case 2:
-        day = 'Tuesday';
-        break;
-    case 3:
-        day = 'Wednesday';
-        break;
-    case 4:
-        day = 'Thursday';
-        break;
-        console.log('0');
-    case 5:
-        day = 'Friday';
-        console.log('1');
-        break;
-    case 6:
-        day = 'Saturday';
-        console.log('2');
-        break;
-    default:
-        day = 'Not a valid day of the week'
+    switch (dayNumber) {
+        case 0:
+            day = 'Sunday';
+            break;
+        case 1:
+            day = 'Monday';
+            break;
+        case 2:
+            day = 'Tuesday';
+            break;
+        case 3:
+            day = 'Wednesday';
+            break;
+        case 4:
+            day = 'Thursday';
+            break;
+        case 5:
+            day = 'Friday';
+            break;
+        case 6:
+            day = 'Saturday';
+            break;
+        default:
+            day = 'Please enter a valid day of the week'
+    }
 }
 console.log(day)
+
+//you can store this in another variable:  e.g.  
+//var dayofweek = getDayOfWeek(4);
 
 /*
 	Bonus - Part 6: All this work is making me hungry. Let's create a new function, addPepperoniToPizza,
