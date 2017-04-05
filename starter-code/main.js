@@ -4,6 +4,10 @@
 */
 
 var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+for (i = 0; i <= ages.length; i++);
+console.log(ages);
+
+
 
 /*
 	Part 2: Let's create a new variable, "younger", which holds an empty array.
@@ -16,6 +20,44 @@ var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
 	(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 */
 
+var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+for (i = 0; i <= ages.length; i++) {
+    if (age < 20) {
+        age = 'younger'
+    }
+
+}
+console.log();
+
+
+function youngerAges() {
+    return function() {
+        var younger = ();
+        var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+        for (i = 0; i < count.length; i++) {
+            if (i <= 20); {
+                return array.prototype.push(younger);
+            }
+        }
+    };
+}
+
+
+var younger = ()
+var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+for (i = 0; ages.length; i++);
+console.log(ages <= 20);
+return array.prototype.push(younger);
+
+//filter//
+function younger(value) {
+    return value >= 20;
+}
+
+var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26].filter(younger);
+return array.prototype.push(younger)
+s
+
 /*
 	Part 3: We're comfortable going through an element from beginning to end, but let's
 	flip this around. With the new "younger" array you created in the last part,
@@ -27,19 +69,85 @@ var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
 
 	Hint: What would the conditional for your for-loop look like?
 */
+var younger = [17, 14, 12, 30, 13]
+array.prototype.reverse(younger)
 
-/*
-	Part 4: Now that you've finished the first 3 parts using a for-loop, repeat the same exercises
-	(Part 1, Part 2, and Part 3) using a while-loop.
-*/
+console.log(reverse(younger))
+    /*
+    	Part 4: Now that you've finished the first 3 parts using a for-loop, repeat the same exercises
+    	(Part 1, Part 2, and Part 3) using a while-loop.
+    */
+    //pt1
+var ages = [28, 30, 17, 14, 12, 20, 13, 36, 68, 49, 37, 55, 56, 26];
+while (i = 0; ages.length; i++);
 
-/*
-	Part 5: Create a function, getDayOfWeek, that will tell you what day of the week it is.
-	For example, getDayOfWeek(1) would return "Monday", and getDayOfWeek(5) would return "Friday".
-	An invalid day of the week should return the string, "Please enter a valid day of the week".
+//pt2
+while (ages < 20)
+    younger.push
 
-	Hint: Using a "switch" statement might result in cleaner code
-*/
+//pt3
+while (ages < 20)
+    younger.reverse
+    /*
+    	Part 5: Create a function, getDayOfWeek, that will tell you what day of the week it is.
+    	For example, getDayOfWeek(1) would return "Monday", and getDayOfWeek(5) would return "Friday".
+    	An invalid day of the week should return the string, "Please enter a valid day of the week".
+
+    	Hint: Using a "switch" statement might result in cleaner code
+    */
+var getDayOfWeek = 3;
+if (dayNumber === 0) {
+    day = 'Sunday';
+} else if (dayNumber === 1) {
+    day = 'Monday';
+} else if (dayNumber === 2) {
+    day = 'Tuesday';
+} else if (dayNumber === 3) {
+    day = 'Wednesday';
+} else if (dayNumber === 4) {
+    day = 'Thursday';
+} else if (dayNumber === 5) {
+    day = 'Friday';
+} else if (dayNumber === 6) {
+    day = 'Saturday';
+} else {
+    day = null;
+}
+console.log(day);
+
+//switch//
+
+var dayNumber =
+    var day;
+switch (dayNumber) {
+    case 0:
+        day = 'Sunday';
+        break;
+    case 1:
+        day = 'Monday';
+        break;
+    case 2:
+        day = 'Tuesday';
+        break;
+    case 3:
+        day = 'Wednesday';
+        break;
+    case 4:
+        day = 'Thursday';
+        break;
+        console.log('0');
+    case 5:
+        day = 'Friday';
+        console.log('1');
+        break;
+    case 6:
+        day = 'Saturday';
+        console.log('2');
+        break;
+    default:
+        day = 'Not a valid day of the week'
+}
+console.log(day)
 
 /*
 	Bonus - Part 6: All this work is making me hungry. Let's create a new function, addPepperoniToPizza,
